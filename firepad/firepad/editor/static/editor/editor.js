@@ -18,7 +18,7 @@
       //// Initialize contents.
       firepad.on('ready', function() {
         if (firepad.isHistoryEmpty()) {
-          firepad.setHtml('<span style="font-size: 24px;">Rich-text editing with <span style="color: red">Firepad!</span></span><br/><br/>Collaborative-editing made easy.\n');
+          firepad.setHtml('<span style="font-size: 20px; font-family: sans-serif; color: #808080;">Write your article here..</span>');
         }
       });
     }
